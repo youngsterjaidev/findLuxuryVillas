@@ -3,3 +3,7 @@ FindLuxuryVillas.com Welcome to the FindLuxuryVillas.com repository! This projec
 
 `{"bg":"#6D6162","icon":"#C9A641","font":"#ffffff","slogan":"#ffffff"}`
 - font link: https://fonts.google.com/specimen/IBM+Plex+Serif
+
+[Instagram](https://www.instagram.com/findluxuryvillas/)
+[Twiiter]https://x.com/FindVillas)
+[Threads](https://www.threads.net/@findluxuryvillas)
