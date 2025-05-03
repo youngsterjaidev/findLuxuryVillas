@@ -4,6 +4,20 @@ import { SITE } from "./site";
 interface PageSEOProps {
   title?: string;
   description?: string;
+  keywords?: string[] | string;
+  author?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+  ogImageAlt?: string;
+  twitterCard?: string;
+  twitterTitle?: string;
+  twitterDescription?: string;
+  twitterImage?: string;
+  twitterImageAlt?: string;
+  twitterSite?: string;
+  ogUrl?: string;
+  url?: string;
   image?: string;
   canonical?: string; // Make sure this is defined in the interface
 }

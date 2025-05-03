@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { SITE } from "@/config/site";
 
@@ -5,16 +6,19 @@ export function Footer() {
   return (
     <footer className="bg-secondary text-surface pt-18 pb-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        {/* NOTE: we can change the col number later */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Column 1 - About */}
           <div>
-            <img
+            <Image
+              width={200}
+              height={8}
               src="/assets/default-monochrome.svg"
               alt="Logo"
               className="h-8 mr-2 mb-4"
             />
             <p className="mb-4">
-              Discover extraordinary luxury villas in the world's most coveted
+              Discover extraordinary luxury villas in the worlds most coveted
               destinations, offering unparalleled privacy, exceptional service,
               and unforgettable experiences.
             </p>
@@ -55,7 +59,7 @@ export function Footer() {
           </div>
 
           {/* Column 2 - Popular Destinations */}
-          <div>
+          {/* <div>
             <h4 className="text-lg text-brand font-semibold mb-4">
               Popular Destinations
             </h4>
@@ -71,7 +75,7 @@ export function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Column 3 - Contact */}
           <div>
@@ -79,12 +83,13 @@ export function Footer() {
               Contact Us
             </h4>
             <address className="not-italic space-y-2">
-              <p className="font-light">{SITE.company.address}</p>
+              {/* NOTE: we can add later */}
+              {/* <p className="font-light">{SITE.company?.address}</p>
               <p className="font-light">
-                <Link href={`tel:${SITE.company.phone}`}>
-                  {SITE.company.phone}
+                <Link href={`tel:${SITE?.company?.phone}`}>
+                  {SITE.company?.phone}
                 </Link>
-              </p>
+              </p> */}
               <p className="font-light">
                 <Link href={`mailto:${SITE.company.email}`}>
                   {SITE.company.email}

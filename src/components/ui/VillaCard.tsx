@@ -1,12 +1,28 @@
 import Image from "next/image";
 import { Users, Bed, Bath } from "lucide-react";
 
+interface VillaCardProps {
+  villa: {
+    image: string;
+    name: string;
+    featured?: boolean;
+    location: string;
+    beds: number;
+    baths: number;
+    capacity: number | string;
+    price: number | string;
+    priceUnit: string;
+  };
+}
+
 // VillaCard component
-const VillaCard = ({ villa }) => {
+const VillaCard: React.FC<VillaCardProps> = ({ villa }) => {
   return (
     <div className="w-full max-w-md overflow-hidden bg-white">
       <div className="relative overflow-hidden">
-        <img
+        <Image
+          width={260}
+          height={260}
           src={villa.image}
           alt={villa.name}
           className="w-full h-64 object-cover transition-all duration-1000 ease-in-out hover:scale-110"

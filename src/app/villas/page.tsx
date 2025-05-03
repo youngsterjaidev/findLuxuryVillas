@@ -1,5 +1,19 @@
 import GradientBar from "@/components/ui/GradientBar";
 import VillaCard from "@/components/ui/VillaCard";
+import { generateSEO } from "@/config/seo";
+
+export async function generateMetadata() {
+  return generateSEO({
+    title: "Premium Villa Collection",
+    description:
+      "Browse our extensive collection of luxury villas featuring detailed information about amenities, location, pricing and availability",
+    keywords:
+      "luxury villas, villa rentals, premium villas, villa amenities, villa locations, villa pricing, villa capacity, villa features",
+    image:
+      "https://images.pexels.com/photos/31817164/pexels-photo-31817164/free-photo-of-luxurious-modern-villa-with-ocean-view.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    url: "https://findluxuryvillas.com/villas",
+  });
+}
 
 // Dummy data for multiple villas
 const villaData = [
@@ -60,9 +74,11 @@ const villaData = [
 const Villas = () => {
   return (
     <div className="container mx-auto py-16">
-      <h1 className="text-center text-3xl">Our Luxury Villa Collection</h1>
-      <GradientBar className="mx-auto mt-5 mb-5" width={200} height={5} />
-      <p className="text-center max-w-140 mx-auto">
+      <h1 className="text-4xl font-light mb-4 text-center">
+        Our Luxury Villa Collection
+      </h1>
+      <GradientBar className="mx-auto mb-6" width={200} height={5} />
+      <p className="text-xl text-gray-600 font-light max-w-2xl mx-auto text-center">
         Discover our handpicked selection of extraordinary luxury villas in the
         worlds most coveted destinations, offering unparalleled privacy and
         exceptional service.

@@ -11,17 +11,16 @@ export const SITE = {
   // Company information
   company: {
     name: "Luxury Villas Inc.",
-    address: "123 Ocean View Drive, Malibu, CA 90210",
-    phone: "+1 (555) 123-4567",
-    email: "bookings@findluxuryvillas.com",
+    // address: "123 Ocean View Drive, Malibu, CA 90210",
+    // phone: "+1 (555) 123-4567",
+    email: "jaidevv999@gmail.com",
   },
 
   // Social media links
   social: {
-    twitter: "https://twitter.com/luxuryvillas",
-    instagram: "https://instagram.com/luxuryvillas",
-    facebook: "https://facebook.com/luxuryvillas",
-    pinterest: "https://pinterest.com/luxuryvillas",
+    twitter: "https://x.com/FindVillas",
+    instagram: "https://www.instagram.com/findluxuryvillas/",
+    threads: "https://www.threads.com/@findluxuryvillas",
   },
 
   // Default Open Graph image
@@ -31,7 +30,7 @@ export const SITE = {
   nav: [
     { name: "Home", href: "/" },
     { name: "Villas", href: "/villas" },
-    { name: "Destinations", href: "/destinations" },
+    // { name: "Destinations", href: "/destinations" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
   ],

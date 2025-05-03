@@ -11,6 +11,8 @@ const ibmPlexSerif = IBM_Plex_Serif({
   subsets: ["latin"],
 });
 
+console.log(ibmPlexSerif);
+
 // Move metadata generation outside the component
 export const metadata: Metadata = {
   ...generateSEO({
