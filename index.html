@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Find Luxury Villas</title>
+        <link
+            rel="icon"
+            type="image/svg+xml"
+            href="./assets/favicon_io/favicon.ico"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin=""
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://s.pageclip.co/v1/pageclip.css"
+            media="screen"
+        />
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <img src="./assets/default-monochrome.svg" alt="" />
+            </div>
+            <div>
+                <h1>Find Luxury Villas</h1>
+                <p>Find Your Dream Villa, Effortlessly</p>
+                <button type="button" id="quoteBtn">Get Quote</button>
+                <div id="formPopup" class="popup">
+                    <div class="popup-content">
+                        <form
+                            id="quoteForm"
+                            action="https://send.pageclip.co/o6v5b7rIo873G5wayp6BKICnGhSaWPtK"
+                            class="pageclip-form"
+                            method="post"
+                        >
+                            <h2>Let Us Call You!</h2>
+                            <p>
+                                Discover the perfect luxury villa for your next
+                                getaway! Leave your details below, and our team
+                                will call you to assist with your booking.
+                            </p>
+
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="Enter your full name"
+                                required=""
+                            />
+                            <input
+                                type="tel"
+                                name="phone"
+                                placeholder="Enter your phone number"
+                                required=""
+                            />
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="Enter your email address"
+                                required=""
+                            />
+
+                            <select name="preference" required="">
+                                <option value="anytime">Anytime</option>
+                                <option value="morning">
+                                    Morning (9 AM - 12 PM)
+                                </option>
+                                <option value="afternoon">
+                                    Afternoon (12 PM - 5 PM)
+                                </option>
+                                <option value="evening">
+                                    Evening (5 PM - 8 PM)
+                                </option>
+                            </select>
+
+                            <textarea
+                                name="message"
+                                placeholder="Any specific requirements or questions?"
+                            ></textarea>
+
+                            <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+                            <button type="submit" class="pageclip-form__submit">
+                                <span>Send</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Showcase Section -->
+        <section class="showcase">
+            <div class="container">
+                <h2>Extraordinary Escapes</h2>
+                <div class="villa-carousel">
+                    <!-- Add 3-4 featured villa images with captions -->
+                    <div class="villa-card">
+                        <img
+                            src="https://source.unsplash.com/random/600x400/?luxury,villa,sea"
+                            alt="Seaside Villa in Amalfi"
+                        />
+                        <h3>Mediterranean Splendor</h3>
+                        <p>
+                            Perched on the Amalfi Coast with panoramic sea views
+                        </p>
+                    </div>
+                    <div class="villa-card">
+                        <img
+                            src="https://source.unsplash.com/random/600x400/?luxury,villa,mountain"
+                            alt="Mountain Retreat"
+                        />
+                        <h3>Alpine Sanctuary</h3>
+                        <p>
+                            Secluded mountain hideaway with private hot springs
+                        </p>
+                    </div>
+                    <div class="villa-card">
+                        <img
+                            src="https://source.unsplash.com/random/600x400/?luxury,villa,tropical"
+                            alt="Tropical Paradise"
+                        />
+                        <h3>Island Oasis</h3>
+                        <p>
+                            Beachfront villa with direct access to pristine
+                            waters
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culinary Experience Section -->
+        <section class="cuisine">
+            <div class="container">
+                <h2>Exquisite Culinary Journeys</h2>
+                <p>
+                    Indulge in world-class dining experiences curated by
+                    renowned chefs
+                </p>
+                <div class="cuisine-features">
+                    <div class="feature">
+                        <img
+                            src="https://source.unsplash.com/random/400x300/?chef,luxury"
+                            alt="Private Chef"
+                        />
+                        <h3>Personal Chef Service</h3>
+                        <p>
+                            Experience personalized gourmet menus crafted from
+                            locally-sourced ingredients
+                        </p>
+                    </div>
+                    <div class="feature">
+                        <img
+                            src="https://source.unsplash.com/random/400x300/?wine,cellar"
+                            alt="Wine Cellar"
+                        />
+                        <h3>Curated Wine Selection</h3>
+                        <p>
+                            Access to premium wines from renowned vineyards
+                            around the world
+                        </p>
+                    </div>
+                    <div class="feature">
+                        <img
+                            src="https://source.unsplash.com/random/400x300/?dining,terrace"
+                            alt="Al Fresco Dining"
+                        />
+                        <h3>Al Fresco Dining</h3>
+                        <p>
+                            Breathtaking settings for unforgettable dining
+                            experiences
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Architecture & Design Section -->
+        <section class="architecture">
+            <div class="container">
+                <h2>Architectural Masterpieces</h2>
+                <p>Stay in residences designed by world-renowned architects</p>
+                <div class="design-gallery">
+                    <div class="design-item">
+                        <img
+                            src="https://plus.unsplash.com/premium_photo-1734543942868-2470c4cba7b5?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Luxury Interior"
+                        />
+                        <span
+                            >Hand-crafted interiors with bespoke
+                            furnishings</span
+                        >
+                    </div>
+                    <div class="design-item">
+                        <img
+                            src="https://source.unsplash.com/random/500x350/?pool,villa"
+                            alt="Infinity Pool"
+                        />
+                        <span
+                            >Seamless integration with natural
+                            surroundings</span
+                        >
+                    </div>
+                    <div class="design-item">
+                        <img
+                            src="https://source.unsplash.com/random/500x350/?architecture,modern"
+                            alt="Modern Architecture"
+                        />
+                        <span>Cutting-edge design meets timeless elegance</span>
+                    </div>
+                    <div class="design-item">
+                        <img
+                            src="https://source.unsplash.com/random/500x350/?bedroom,luxury"
+                            alt="Master Suite"
+                        />
+                        <span
+                            >Sumptuous sleeping quarters with premium
+                            linens</span
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Testimonials -->
+        <section class="testimonials">
+            <div class="container">
+                <h2>Guest Experiences</h2>
+                <div class="testimonial-slider">
+                    <div class="testimonial">
+                        <blockquote>
+                            "Our stay exceeded all expectations. The attentive
+                            staff, breathtaking views, and impeccable design
+                            created memories we'll cherish forever."
+                        </blockquote>
+                        <cite>— Jonathan & Sarah, London</cite>
+                    </div>
+                    <div class="testimonial">
+                        <blockquote>
+                            "The culinary experience alone was worth the
+                            journey. Having a Michelin-star chef prepare our
+                            meals while overlooking the Mediterranean was simply
+                            magical."
+                        </blockquote>
+                        <cite>— Alessandro, Milan</cite>
+                    </div>
+                    <div class="testimonial">
+                        <blockquote>
+                            "Every detail was considered, from the fresh flowers
+                            in our room to the personalized excursions. This is
+                            what true luxury hospitality means."
+                        </blockquote>
+                        <cite>— Emma & David, New York</cite>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Concierge Services -->
+        <section class="services">
+            <div class="container">
+                <h2>White Glove Concierge</h2>
+                <p>Every aspect of your stay meticulously curated</p>
+                <div class="services-grid">
+                    <div class="service">
+                        <i class="icon-transportation"></i>
+                        <h3>Private Transportation</h3>
+                        <p>Luxury vehicles and chauffeurs at your disposal</p>
+                    </div>
+                    <div class="service">
+                        <i class="icon-yacht"></i>
+                        <h3>Yacht Charters</h3>
+                        <p>Explore pristine coastlines in complete privacy</p>
+                    </div>
+                    <div class="service">
+                        <i class="icon-wellness"></i>
+                        <h3>Wellness Experiences</h3>
+                        <p>In-villa spa treatments and personal training</p>
+                    </div>
+                    <div class="service">
+                        <i class="icon-experience"></i>
+                        <h3>Exclusive Experiences</h3>
+                        <p>Access to invitation-only events and hidden gems</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+            <div class="container">
+                <h2>Begin Your Extraordinary Journey</h2>
+                <p>
+                    Our portfolio of exclusive properties awaits your discovery
+                </p>
+                <button type="button" id="exploreBtn">
+                    Explore Collection
+                </button>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img
+                            src="./assets/default-monochrome.svg"
+                            alt="Find Luxury Villas"
+                        />
+                    </div>
+                    <div class="footer-links">
+                        <h3>Destinations</h3>
+                        <ul>
+                            <li><a href="#">Mediterranean</a></li>
+                            <li><a href="#">Caribbean</a></li>
+                            <li><a href="#">Alps</a></li>
+                            <li><a href="#">Asian Pacific</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Concierge</a></li>
+                            <li><a href="#">Private Chef</a></li>
+                            <li><a href="#">Transportation</a></li>
+                            <li><a href="#">Experiences</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h3>Contact Us</h3>
+                        <p>+1 (800) LUXURY-VILLAS</p>
+                        <p>concierge@findluxuryvillas.com</p>
+                        <div class="social-icons">
+                            <!-- Add social media icons -->
+                            <a href="#" aria-label="Facebook"
+                                ><i class="icon-facebook"></i
+                            ></a>
+                            <a href="#" aria-label="Instagram"
+                                ><i class="icon-instagram"></i
+                            ></a>
+                            <a href="#" aria-label="Twitter"
+                                ><i class="icon-twitter"></i
+                            ></a>
+                            <a href="#" aria-label="Pinterest"
+                                ><i class="icon-pinterest"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2023 Find Luxury Villas. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script
+            src="https://s.pageclip.co/v1/pageclip.js"
+            charset="utf-8"
+        ></script>
+        <script src="./index.js"></script>
+    </body>
+</html>

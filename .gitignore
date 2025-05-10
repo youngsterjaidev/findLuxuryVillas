@@ -1,7 +1,10 @@
 node_modules/
 
 .next/
+dist/
+.parcel-cache
 
 .DS_Store
+.env-local
 
 public/.DS_Store
