@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Discover exquisite luxury villas with private pools and stunning views",
   }),
   icons: {
-    icon: "/favicon.ico",
+    icon: "/assets/favicon_io/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
   metadataBase: new URL("https://www.findLuxuryVillas.com"), // Crucial for absolute URLs

@@ -1,6 +1,7 @@
 import React from "react";
 import GradientBar from "@/components/ui/GradientBar";
 import { generateSEO } from "@/config/seo";
+import ContactFrom from "@/components/ui/ContactForm";
 
 export async function generateMetadata() {
   return generateSEO({
@@ -78,54 +79,7 @@ export default function Contact() {
           <div className="flex-1 min-w-[300px]">
             <h2 className="text-2xl font-light mb-6">Send Us a Message</h2>
             <GradientBar className="mb-8" width={140} height={4} />
-            <form className="space-y-6">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Name
-                </label>
-                <input
-                  type="text"
-                  className="w-full p-3 border border-gray-300 focus:border-brand focus:outline-none"
-                  placeholder="Your full name"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  className="w-full p-3 border border-gray-300 focus:border-brand focus:outline-none"
-                  placeholder="Your email address"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Phone
-                </label>
-                <input
-                  type="tel"
-                  className="w-full p-3 border border-gray-300 focus:border-brand focus:outline-none"
-                  placeholder="Your phone number"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Message
-                </label>
-                <textarea
-                  className="w-full p-3 border border-gray-300 focus:border-brand focus:outline-none h-32"
-                  placeholder="Tell us about your preferred destination, dates, and any specific requirements"
-                ></textarea>
-              </div>
-
-              <button className="bg-brand px-8 py-3 text-white w-full cursor-pointer">
-                Send Message
-              </button>
-            </form>
+            <ContactFrom />
           </div>
 
           <div className="flex-1 min-w-[300px]">

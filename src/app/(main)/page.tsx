@@ -62,8 +62,8 @@ export default function Home() {
         <div className="flex flex-col md:flex-row container mx-auto justify-between bg-surface p-6 md:p-12 gap-8 md:gap-16 mb-50">
           <div className="flex-1 flex item-center justify-center relative">
             <Image
-              width={300}
-              height={300}
+              width={600}
+              height={600}
               src={
                 "https://images.pexels.com/photos/1122412/pexels-photo-1122412.jpeg?auto=compress&cs=tinysrgb&w=600"
               }
@@ -101,9 +101,9 @@ export default function Home() {
         <div className="flex flex-col md:flex-row-reverse container mx-auto justify-between p-6 md:p-12 gap-8 md:gap-16 mb-40">
           <div className="flex-1 flex item-center justify-center relative">
             <Image
-              width={300}
-              height={300}
-              src="https://images.pexels.com/photos/29679172/pexels-photo-29679172/free-photo-of-scenic-pool-villa-landscape-in-bodrum-turkiye.jpeg?auto=compress&cs=tinysrgb&w=600"
+              width={600}
+              height={400}
+              src="/images/travaler.jpeg"
               alt="Luxury villa with infinity pool"
               className="w-full h-auto object-cover"
             />
@@ -136,9 +136,9 @@ export default function Home() {
 
       <section className="mb-40">
         <Image
-          width={300}
-          height={300}
-          src="https://images.pexels.com/photos/1488330/pexels-photo-1488330.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          width={1460}
+          height={750}
+          src="/images/outdoor.jpeg"
           className="w-full"
           alt="Luxury villa with infinity pool"
         />
@@ -165,9 +165,9 @@ export default function Home() {
 
       <section className="mb-40">
         <Image
-          width={300}
-          height={300}
-          src="https://images.pexels.com/photos/1134175/pexels-photo-1134175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          width={1250}
+          height={750}
+          src="https://images.pexels.com/photos/8082196/pexels-photo-8082196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           className="w-full"
           alt="Luxury villa with infinity pool"
         />
@@ -177,9 +177,9 @@ export default function Home() {
         <div className="container mx-auto mt-40 md:mt-80 mb-40">
           <div className="w-full md:w-1/2 md:ml-auto relative bg-surface p-8 md:p-16">
             <Image
-              width={300}
-              height={300}
-              src="https://images.pexels.com/photos/29679172/pexels-photo-29679172/free-photo-of-scenic-pool-villa-landscape-in-bodrum-turkiye.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              width={700}
+              height={700}
+              src="/images/room-indoor-02.jpg"
               alt="Luxury villa with infinity pool"
               className="bg-surface-100 w-full relative md:absolute md:top-[-40%] md:left-[-95%] mb-8 md:mb-0"
             />
@@ -210,9 +210,9 @@ export default function Home() {
         <div className="flex flex-col md:flex-row-reverse container mx-auto justify-between p-6 md:p-12 gap-8 md:gap-16 mb-40">
           <div className="flex-1 flex item-center justify-center relative">
             <Image
-              width={300}
-              height={300}
-              src="https://images.pexels.com/photos/29679172/pexels-photo-29679172/free-photo-of-scenic-pool-villa-landscape-in-bodrum-turkiye.jpeg?auto=compress&cs=tinysrgb&w=600"
+              width={700}
+              height={700}
+              src="/images/dinning-room.jpg"
               alt="Luxury villa with infinity pool"
               className="w-full h-auto object-cover"
             />
@@ -245,9 +245,9 @@ export default function Home() {
 
       <section className="mb-40">
         <Image
-          width={300}
-          height={300}
-          src="https://images.pexels.com/photos/1134175/pexels-photo-1134175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          width={1260}
+          height={750}
+          src="/images/outdoor-view.jpeg"
           className="w-full"
           alt="Luxury villa with infinity pool"
         />
@@ -278,9 +278,9 @@ export default function Home() {
         <div className="flex flex-col md:flex-row-reverse container mx-auto justify-between p-6 md:p-12 gap-8 md:gap-16 mb-50">
           <div className="flex-1 flex item-center justify-center relative">
             <Image
-              width={300}
-              height={300}
-              src="https://images.pexels.com/photos/1122412/pexels-photo-1122412.jpeg?auto=compress&cs=tinysrgb&w=600"
+              width={800}
+              height={400}
+              src="/images/wine-glass.jpeg"
               alt="Luxury villa with infinity pool"
               className="w-full h-auto object-cover"
             />
